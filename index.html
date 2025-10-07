@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mary Anderson Floating Restaurant</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="font-sans text-gray-800 bg-gray-50">
+
+    <!-- 🌅 Navbar -->
+    <header class="bg-white text-black shadow-lg">
+      <div class="container mx-auto flex justify-between items-center px-8 py-4">
+         <div class=" flex flex-1">
+          <div>
+            <img class="h-6" width="20px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToV5yMcHMbunIgPJRBzTbnhpfiHAT8IQyomGX8l0P2YFbRfQ71F6r6tNUpTGJTq1yvCio&usqp=CAU"/>
+          </div>
+          <div>
+            <h1 class="text-lg font-semibold tracking-wide">Mary Anderson Floating Restaurant </h1>
+          </div>
+         </div>
+        <nav>
+          <div>
+            <ul class="flex space-x-6 text-sm">
+            <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+            <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+            <li><a href="#menu" class="hover:text-yellow-400">Menu</a></li>
+            <li><a href="#gallery" class="hover:text-yellow-400">Gallery</a></li>
+            <li><a href="https://sonargaontourism.com/" class="hover:text-yellow-400">Sonargoan Turism</a></li>
+          </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- 🌊 Hero Section -->
+    <section
+      id="home"
+      class="relative bg-cover bg-center h-[80vh] flex items-center justify-center text-white"
+      style="background-image: url('https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?auto=format&fit=crop&w=1470&q=80');"
+    >
+   <!-- Background Video -->
+<!-- Background Video -->
+  <div class="absolute inset-0 z-0">
+    <iframe
+      class="w-full h-full object-cover"
+      src="https://www.youtube.com/embed/4FRAb0-OjMo?autoplay=1&mute=1&loop=1&playlist=4FRAb0-OjMo&controls=0&showinfo=0&modestbranding=1"
+      title="Background Video"
+      frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <div class="absolute inset-0 bg-black/50"></div>
+  </div>    <iframe
+      class="w-full h-full object-cover absolute"
+      src="https://www.youtube.com/embed/Z3vgsp4vKQs?autoplay=1&mute=1&loop=1&playlist=Z3vgsp4vKQs&controls=0&showinfo=0&modestbranding=1"
+      title="Why do big ships float? — Background Video"
+      frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <div class="absolute inset-0 bg-black/50"></div>
+  </div>
+      <div class="bg-black/50 p-8 rounded-lg text-center max-w-2xl">
+        <h1 class="text-4xl md:text-5xl font-semibold mb-4">Dine Above the Waves.</h1>
+        <p class="text-gray-200 mb-6">
+          Expanded in 2021, Mary Anderson brings the charm of the sea to your dining
+          experience with sunset views and maritime magic.
+        </p>
+        <div class="space-x-4">
+          <a href="#reserve" class="bg-yellow-400 text-slate-900 px-5 py-2 rounded-full font-medium hover:bg-yellow-300">Reserve a Table</a>
+          <a href="#menu" class="border border-yellow-400 px-5 py-2 rounded-full hover:bg-yellow-400 hover:text-slate-900">View Menu</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🍽️ Our Story / Highlights -->
+    <section id="about" class="py-16 bg-white text-center">
+      <h2 class="text-3xl font-semibold mb-6">Our Story</h2>
+      <div class="flex justify-center space-x-4 mb-10">
+        <button class="bg-yellow-400 text-white px-4 py-2 rounded-full text-sm">Seafood</button>
+        <button class="bg-gray-200 px-4 py-2 rounded-full text-sm hover:bg-gray-300">Cocktails</button>
+        <button class="bg-gray-200 px-4 py-2 rounded-full text-sm hover:bg-gray-300">Desserts</button>
+        <button class="bg-gray-200 px-4 py-2 rounded-full text-sm hover:bg-gray-300">Vegan</button>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8 px-8 max-w-6xl mx-auto">
+        <!-- Card 1 -->
+        <div class="bg-gray-100 rounded-xl shadow-md overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover" alt="Live Jazz Fridays">
+          <div class="p-5 text-left">
+            <h3 class="text-lg font-semibold mb-2">Live Jazz Fridays</h3>
+            <p class="text-gray-600 text-sm mb-3">Enjoy timeless live music under moonlit skies.</p>
+            <span class="font-semibold text-yellow-600">$33.90</span>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="bg-gray-100 rounded-xl shadow-md overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1551024709-8f23befc6cf7?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover" alt="Wine Cocktails">
+          <div class="p-5 text-left">
+            <h3 class="text-lg font-semibold mb-2">Wine Cocktails</h3>
+            <p class="text-gray-600 text-sm mb-3">Hand-crafted cocktails with a seaside twist.</p>
+            <span class="font-semibold text-yellow-600">$39.90</span>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="bg-gray-100 rounded-xl shadow-md overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover" alt="Live Jazz Dinner">
+          <div class="p-5 text-left">
+            <h3 class="text-lg font-semibold mb-2">Live Jazz Dinner</h3>
+            <p class="text-gray-600 text-sm mb-3">Luxury meals with intimate seaside magic.</p>
+            <span class="font-semibold text-yellow-600">$33.30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⚓ Reservation -->
+    <section id="reserve" class="bg-slate-900 text-white py-16 text-center">
+      <h2 class="text-3xl font-semibold mb-8">Anchor Your Table</h2>
+      <form class="flex flex-col md:flex-row justify-center items-center gap-4 px-8">
+        <input type="text" placeholder="Name" class="px-4 py-2 rounded-lg w-64 text-gray-800" required>
+        <input type="date" class="px-4 py-2 rounded-lg w-48 text-gray-800" required>
+        <input type="time" class="px-4 py-2 rounded-lg w-40 text-gray-800" required>
+        <input type="email" placeholder="Email" class="px-4 py-2 rounded-lg w-64 text-gray-800" required>
+        <button type="submit" class="bg-yellow-400 text-slate-900 px-6 py-2 rounded-full font-semibold hover:bg-yellow-300">Book Seat</button>
+      </form>
+    </section>
+
+    <!-- 🎶 Events & Specials -->
+    <section id="events" class="py-16 bg-gray-100 text-center">
+      <h2 class="text-3xl font-semibold mb-10">Events & Specials</h2>
+      <div class="grid md:grid-cols-3 gap-8 px-8 max-w-6xl mx-auto">
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover" alt="Live Jazz Fridays">
+          <p class="py-4 font-medium">Live Jazz Fridays</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover" alt="Sunset Cruise Dinner">
+          <p class="py-4 font-medium">Sunset Cruise Dinner</p>
+        </div>
+        <div class="bg-white rounded-xl shadow-md overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" class="w-full h-48 object-cover" alt="Wine Pairing Nights">
+          <p class="py-4 font-medium">Wine Pairing Nights</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ⚓ Footer -->
+    <footer class="bg-slate-900 text-gray-300 text-center py-6 text-sm">
+      Anchored by Mary Anderson © 2025.
+    </footer>
+
+  </body>
+</html>
